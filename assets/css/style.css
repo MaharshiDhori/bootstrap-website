@@ -11886,6 +11886,30 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--description {
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 54, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 54, 240, 0.95), rgba(209, 34, 227, 0.95));
 }

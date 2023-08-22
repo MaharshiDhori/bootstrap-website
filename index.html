@@ -7,13 +7,17 @@
     <title>Portfolio : Bootstrap</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="fontawesome.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!--/////////////////// NAVBAR START /////////////////-->
+<!--/////////////////// NAVBAR START /////////////////-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="logo image" srcset="">
@@ -53,8 +57,43 @@
         </div>
     </nav>
 
-    <!--/////////////////// NAVBAR END /////////////////-->
+<!--/////////////////// NAVBAR END /////////////////-->
 
+
+<!--/////////////////// INTRO SECTION START /////////////////-->
+
+    <section class="intro-section" id="home">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-md-6 intros">
+                    <h1 class="display-2">
+                        <span class="display-2--intro">Hey!, I'm Patrick</span>
+                        <span class="display-2--description">this is a multi-purpose responsive layout created with bootstrap v5. (here your can place your description text)</span>
+                    </h1>
+                    <button type="button" class="rounded-pill btn-rounded">Get In Touch
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="col-md-6 intros text-end">
+                    <div class="video-box">
+                        <img src="images/arts/user-profile.png" alt="video illustration" srcset="" class="img-fluid">
+                        <a href="#">
+                            <span>
+                                <i class="fas fa-play-circle"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!--/////////////////// INTRO SECTION END /////////////////-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
