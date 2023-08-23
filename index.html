@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio : Bootstrap</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/vendors/css/glightbox.min.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -79,15 +80,18 @@
                 <div class="col-md-6 intros text-end">
                     <div class="video-box">
                         <img src="images/arts/user-profile.png" alt="video illustration" srcset="" class="img-fluid">
-                        <a href="#">
+                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
                             <span>
                                 <i class="fas fa-play-circle"></i>
                             </span>
+                            <span class="border-animation border-animation--border-1"></span>
+                            <span class="border-animation border-animation--border-2"></span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,229.3C320,224,400,160,480,154.7C560,149,640,203,720,192C800,181,880,107,960,101.3C1040,96,1120,160,1200,154.7C1280,149,1360,75,1400,37.3L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
 
 
@@ -95,6 +99,16 @@
 
 <!--/////////////////// INTRO SECTION END /////////////////-->
 
+<script type="text/javascript">
+    const lightbox = GLightbox({
+        'href': 'https://youtu.be/iJKCj8uAHz8',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos' : 'true'
+});
+</script>
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
