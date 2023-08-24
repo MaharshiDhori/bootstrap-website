@@ -1,0 +1,20 @@
+@use'../custom' as *;
+
+.services {
+    position: relative;
+    padding: 1rem 0;
+
+    &__content {
+        padding: 1rem;
+        margin-top: 5rem;
+
+        .icon {
+            font-size: 2.5rem;
+            color: $primary;
+        }
+    }
+
+    &__pic {
+        max-width: 100%;
+    }
+}

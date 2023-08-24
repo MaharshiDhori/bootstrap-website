@@ -11919,6 +11919,65 @@ textarea.form-control-lg {
   }
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #9936f0;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #9936f0;
+}
+
+.display-3 {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9936f0, #d122e3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
+.campanies {
+  padding: 0 0 5rem 0;
+}
+.campanies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.campanies__logo-box img {
+  height: 100%;
+}
+.campanies__logo-box img:hover {
+  filter: grayscale(20);
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(153, 54, 240, 0.95), rgba(209, 34, 227, 0.95));
   padding: 10rem 0 0 0;
@@ -11961,6 +12020,22 @@ textarea.form-control-lg {
   color: #fff !important;
   font-weight: 600;
   text-transform: capitalize;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 5rem;
+}
+.services__content .icon {
+  font-size: 2.5rem;
+  color: #9936f0;
+}
+.services__pic {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
