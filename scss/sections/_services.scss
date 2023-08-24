@@ -6,11 +6,27 @@
 
     &__content {
         padding: 1rem;
-        margin-top: 5rem;
+        margin-top: 0;
 
+        p {
+            font-size: 0.8rem;
+            
+            @include media-breakpoint-up(lg) {
+                font-size: 1rem;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem;
+        }
         .icon {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             color: $primary;
+            display: block;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 2.5rem;
+            }
         }
     }
 
