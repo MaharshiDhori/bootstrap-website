@@ -1,5 +1,5 @@
 # Bootstrap-website
-Building a demo portfolio static webpage for learning bootstrap and sass.<br>
+Building a demo portfolio static and responsive webpage for learning bootstrap and sass.<br>
 
 You can use it to modify it to make your portfolio page to show your work.
 
